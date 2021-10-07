@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+  }
+  .jumbotron {
+    margin-top: -260px;
+    height: 630px;
+    background-image: url("1.jpg");
+    background-size: cover;
+  }
+  .jumbotron p {
+    padding-top: 350px;
+    text-shadow: 5px 5px 5px black;
+  }
+  .btn-light:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  @media (min-width: 900px) {
+    .jumbotron {
+      margin-top: -260px;
+      height: 800px;
+      background-image: url("1.jpg");
+      background-size: cover;
+    }
+    .jumbotron p {
+      padding-top: 450px;
+      text-shadow: 5px 5px 5px black;
+    }
+  }
+  
