@@ -1,9 +1,9 @@
-import Style from "./Materi/Styling";
+import Form from "./Materi/FormValidation";
 
 function App() {
   return (
     <div className="App">
-     <Style />
+     <Form />
     </div>
   );
 }
