@@ -1,9 +1,11 @@
-import Form from "./Materi/FormValidation";
+
+import NewsApi from "./Materi/LifecycleComponents";
+
 
 function App() {
   return (
     <div className="App">
-     <Form />
+     <NewsApi />
     </div>
   );
 }
