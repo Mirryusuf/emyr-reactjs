@@ -1,11 +1,9 @@
-
-import NewsApi from "./Materi/LifecycleComponents";
-
+import Apps from "./Materi/Hooks";
 
 function App() {
   return (
     <div className="App">
-     <NewsApi />
+      <Apps />
     </div>
   );
 }
