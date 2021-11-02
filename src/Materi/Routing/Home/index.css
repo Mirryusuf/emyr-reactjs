@@ -1,0 +1,24 @@
+img{
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.tittle_home h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+@media (min-width: 900px) {
+    img{
+        height: 420px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .tittle_home h1{
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 250px;
+        margin-left: 40px;
+    }
+}

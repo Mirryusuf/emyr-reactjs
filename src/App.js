@@ -1,9 +1,10 @@
-import Apps from "./Materi/Hooks";
+import AppP from "./Materi/Routing";
+
 
 function App() {
   return (
     <div className="App">
-      <Apps />
+      <AppP />
     </div>
   );
 }
